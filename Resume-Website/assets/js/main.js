@@ -13,6 +13,14 @@ jQuery(document).ready(function($) {
 	        $('.ds-header').removeClass('ds-fixed-header');
 	    }
 	}).scroll();
+});
 
-
+var typed = new Typed('#typed', {
+    strings: [
+        'I am a Cloud Engineer',
+        'I am a Cloud Architect',
+        'I am a DevOps Engineer'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
 });
